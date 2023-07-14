@@ -1,0 +1,53 @@
+.face{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 11);
+    margin-left: 40%;
+    margin-top: 10%;
+    
+}
+.eye,h1{
+     height: 10%;
+     width: 20%;
+     font-size: 350%;
+     position: absolute;
+     left: 10%;
+     top: 10%;
+}
+.smile
+{
+    position: absolute;
+    height: 15px;
+    width: 50px;
+    background-color: rgb(12, 7, 1);
+    margin-top: 50%;
+    right: 10px ;
+    border-top-left-radius: 50%;
+    border-top-right-radius:50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+h2{
+    height: 10%;
+     width: 20%;
+     font-size: 350%;
+     position: absolute;
+     left: 55%;
+     top: 10%;
+}
+.smile{
+    height: 10%;
+     width: 30%;
+     font-size: 350%;
+     position: absolute;
+    right:120px;
+     top: 20%;
+}
+.face:hover{
+ background-color: rgb(47, 201, 47);
+}
+body{
+     background-image: linear-gradient(black,rgb(45, 105, 133)); 
+}
